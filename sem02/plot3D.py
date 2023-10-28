@@ -16,4 +16,8 @@ fig = plt.figure( figsize =(8,6))
 
 ax = fig.add_subplot(1,1,1, projection ='3d')
 
-p =ax.plot_wireframe(X, Y, Z, rstride=4, cstride=4)
+p = ax.plot_wireframe(X, Y, Z, rstride=4, cstride=4)
+
+plt.show()
+
+plt.savefig('ex_plot3D.png', format='png')
